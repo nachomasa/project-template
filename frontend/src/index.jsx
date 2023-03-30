@@ -11,7 +11,7 @@ const BACKEND_PORT = process.env.BACKEND_PORT;
 // replace baseUrl with a custom IP if backend runs on a different server, e.g. try pannu01: "95.216.207.125"
 const baseUrl = "95.216.143.29";
 
-const backendUrl = `http://${baseUrl}:${BACKEND_PORT}`;
+const backendUrl = `http://95.216.143.29:9000`;
 
 // options for a chart
 const options = {
